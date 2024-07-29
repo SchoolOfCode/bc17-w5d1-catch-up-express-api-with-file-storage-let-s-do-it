@@ -73,7 +73,25 @@ app.get("/recipes/:id", async(req,res)=> {
 }
 )
 
-// 
+// prepare app.post so when user adds a body it will create a new object in our json.file
+//get what was put n by user aka req.body
+app.post('/recipes', async(req, res) =>{
+ 
+  try{
+    let inputRecipe = req.body;
+    await createRecipe(inputRecipe); 
+    res.status(200).json({
+    success: true,
+    });
+  }
+
+  catch{
+    res.status(500).json({
+    success:false
+    })
+  }
+}
+)
 
 
 

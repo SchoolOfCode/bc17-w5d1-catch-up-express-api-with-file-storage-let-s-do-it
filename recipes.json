@@ -1,22 +1,14 @@
 [
-  
   {
     "id": "4c848d48-b81e-4d6f-b45d-7b3090f4f8ef",
-    
     "title": "Beans on Toast",
-
     "ingredients": ["150g of beans", "150g of butter", "150g of toast"],
-
     "instructions": "Put the butter in your mouth, wait 2 seconds to allow slight melting. Then follow with the toast. Swish around for 10-15 seconds to allow even coating of butter on the toast. Then add the beans, slowly.\n  \n    Season to taste.",
-
     "image": "https://natashaskitchen.com/wp-content/uploads/2019/04/Best-Burger-4-500x375.jpg"
   },
-
   {
     "id": "d5b1e6c9-6f0a-4b7b-a8e0-bcf4f6dbe2a7",
-
     "title": "Classic Spaghetti Aglio e Olio",
-
     "ingredients": [
       "200g of spaghetti",
       "4 cloves of garlic",
@@ -25,10 +17,19 @@
       "Salt to taste",
       "Parsley for garnish"
     ],
-
     "instructions": "Cook the spaghetti according to package instructions until al dente. In a pan, heat the olive oil and sauté the garlic until golden and fragrant. Add red pepper flakes and salt to taste. Toss the cooked spaghetti in the garlic oil mixture. Garnish with chopped parsley before serving.",
-
     "image": "https://www.twopeasandtheirpod.com/wp-content/uploads/2023/05/Spaghetti-2224.jpg"
+  },
+  {
+    "id": "7f947db0-3c2d-4a7f-84c5-2b1d9c7d9d8b",
+    "title": "Pancakes with Syrup",
+    "ingredients": [
+      "200g of pancake mix",
+      "100ml of milk",
+      "50g of butter",
+      "100ml of syrup"
+    ],
+    "instructions": "Mix the pancake mix with milk until smooth. Heat a frying pan and melt a bit of butter. Pour the batter into the pan and cook until bubbles form on the surface, then flip and cook until golden brown. Serve with syrup drizzled on top. Enjoy warm.",
+    "image": "https://example.com/images/pancakes.jpg"
   }
-  
 ]

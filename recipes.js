@@ -27,10 +27,17 @@ export async function getRecipeByID(userInput) {
 
 
 
-
-
 // CREATE A RECIPE
-export async function createRecipe(newRecipe) {}
+//
+export async function createRecipe(newRecipe) {
+  let data = await getRecipes();
+  data.push(newRecipe);
+  let updatedRecipe = await fs.writeFile("./recipes.json", JSON.stringify(data))
+  return updatedRecipe;
+
+}
+
+
 
 // UPDATE A RECIPE BY ID
 export async function updateRecipeByID(id, updatedRecipe) {}
