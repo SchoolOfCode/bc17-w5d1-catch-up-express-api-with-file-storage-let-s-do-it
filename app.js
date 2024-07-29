@@ -79,9 +79,10 @@ app.post('/recipes', async(req, res) =>{
  
   try{
     let inputRecipe = req.body;
-    await createRecipe(inputRecipe); 
+    let recipeFromUser =  await createRecipe(inputRecipe); 
     res.status(200).json({
     success: true,
+    payload: recipeFromUser,
     });
   }
 

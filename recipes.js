@@ -33,7 +33,7 @@ export async function createRecipe(newRecipe) {
   let data = await getRecipes();
   data.push(newRecipe);
   let updatedRecipe = await fs.writeFile("./recipes.json", JSON.stringify(data))
-  return updatedRecipe;
+  return newRecipe;
 
 }
 
